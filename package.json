@@ -29,6 +29,7 @@
   "homepage": "https://github.com/wookets/babel-json#readme",
   "dependencies": {
     "@google-cloud/translate": "1.1.0",
-    "commander": "2.16.0"
+    "commander": "2.16.0",
+    "through2": "2.0.3"
   }
 }
