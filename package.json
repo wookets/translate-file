@@ -1,6 +1,6 @@
 {
-  "name": "@wookets/translate-file",
-  "version": "0.1.0",
+  "name": "translate-file",
+  "version": "0.1.1",
   "description": "Will translate a file to target language using google cloud.",
   "main": "bin/main.js",
   "bin": {
