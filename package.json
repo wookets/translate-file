@@ -1,0 +1,30 @@
+{
+  "name": "babel-json",
+  "version": "0.0.1",
+  "description": "Will translate a json file's fields into target language. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookets/babel-json.git"
+  },
+  "keywords": [
+    "translate",
+    "babel",
+    "json",
+    "google",
+    "cloud",
+    "language"
+  ],
+  "author": "wookets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/babel-json/issues"
+  },
+  "homepage": "https://github.com/wookets/babel-json#readme",
+  "dependencies": {
+    "node-fetch": "2.1.2"
+  }
+}
