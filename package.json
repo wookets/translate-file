@@ -1,8 +1,11 @@
 {
-  "name": "babel-json",
-  "version": "0.0.1",
-  "description": "Will translate a json file's fields into target language. ",
-  "main": "index.js",
+  "name": "translate-file",
+  "version": "0.1.0",
+  "description": "Will translate a file to target language using google cloud.",
+  "main": "bin/main.js",
+  "bin": {
+    "translate": "bin/main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/wookets/babel-json#readme",
   "dependencies": {
-    "node-fetch": "2.1.2"
+    "@google-cloud/translate": "1.1.0",
+    "commander": "2.16.0"
   }
 }
